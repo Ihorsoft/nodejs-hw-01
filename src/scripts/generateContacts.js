@@ -5,7 +5,7 @@ import { writeContacts } from '../utils/writeContacts.js';
 import { getAllContacts } from './getAllContacts.js';
 
 const generateContacts = async (number) => {
-  const newArr = [];
+  // const newArr = [];
 
   const contacts = await getAllContacts();
   let i = 1;
@@ -19,4 +19,4 @@ const generateContacts = async (number) => {
 };
 
 generateContacts(5);
-console.log('in files :', await readContacts());
+// console.log('in files :', await readContacts());

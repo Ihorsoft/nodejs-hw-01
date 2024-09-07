@@ -1,4 +1,4 @@
-import fs from 'node:fs/promises';
+// import fs from 'node:fs/promises';
 import { createFakeContact } from '../utils/createFakeContact.js';
 import { readContacts } from '../utils/readContacts.js';
 import { writeContacts } from '../utils/writeContacts.js';
@@ -13,4 +13,4 @@ export const addOneContact = async () => {
 };
 
 addOneContact();
-console.log('in files :', await readContacts());
+// console.log('in files :', await readContacts());

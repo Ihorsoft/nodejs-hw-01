@@ -1,5 +1,5 @@
 import { readContacts } from '../utils/readContacts.js';
-import fs from 'node:fs/promises';
+//import fs from 'node:fs/promises';
 import { PATH_DB } from '../constants/contacts.js';
 import { writeContacts } from '../utils/writeContacts.js';
 
@@ -10,4 +10,4 @@ export const removeLastContact = async () => {
 };
 
 removeLastContact();
-console.log('in file:', await readContacts()); // with out await - returned promise
+// console.log('in file:', await readContacts()); // with out await - returned promise
